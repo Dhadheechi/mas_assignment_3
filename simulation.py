@@ -188,5 +188,5 @@ n_frames = len(all_frames) // STRIDE
 ani = animation.FuncAnimation(fig, update, frames=n_frames, init_func=init,
                                interval=30, blit=True)
 
-ani.save("/./dhadheechi_formation.gif", writer="pillow", fps=30, dpi=90)
+ani.save("./dhadheechi_formation.gif", writer="pillow", fps=30, dpi=90)
 print("saved animation")
